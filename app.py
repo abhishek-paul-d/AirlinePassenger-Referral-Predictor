@@ -5,7 +5,7 @@ import tensorflow as tf
 import pickle
 
 # Load the neural network model
-model_nn = tf.keras.models.load_model('D:\ML\Referral Predictor\model_nn.h5')
+model_nn = tf.keras.models.load_model('model_nn.h5')
 
 # Load other models
 with open('models.pkl', 'rb') as f:
